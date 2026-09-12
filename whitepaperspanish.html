@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARENA (ARN) - Whitepaper Oficial v1.0</title>
+    <style>
+        :root {
+            --bg-color: #0b0518;
+            --card-bg: #160b2d;
+            --accent-purple: #8b3dff;
+            --accent-glow: #bc77ff;
+            --text-silver: #e2e8f0;
+            --text-muted: #a0aec0;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-silver);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, var(--card-bg) 0%, #080312 100%);
+            border: 2px solid var(--accent-purple);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 0 25px rgba(139, 61, 255, 0.2);
+        }
+
+        h1 {
+            color: var(--white);
+            text-align: center;
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 12px var(--accent-purple);
+        }
+
+        .version-tag {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--accent-purple), transparent);
+            margin: 25px 0;
+        }
+
+        h2 {
+            color: var(--white);
+            font-size: 1.6rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent-glow);
+            padding-left: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-silver);
+            text-align: justify;
+        }
+
+        strong {
+            color: var(--white);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background-color: rgba(139, 61, 255, 0.03);
+            border: 1px solid rgba(139, 61, 255, 0.2);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(139, 61, 255, 0.2);
+        }
+
+        th {
+            background-color: rgba(139, 61, 255, 0.1);
+            color: var(--white);
+        }
+
+        ul {
+            list-style-type: none;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        li::before {
+            content: "⚡";
+            position: absolute;
+            left: 0;
+            color: var(--accent-glow);
+        }
+
+        .team-box {
+            background-color: rgba(139, 61, 255, 0.05);
+            border: 1px solid rgba(139, 61, 255, 0.2);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .team-title {
+            font-size: 1.2rem;
+            color: var(--white);
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .team-role {
+            font-size: 0.9rem;
+            color: var(--accent-glow);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .disclaimer-box {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-style: italic;
+            border-top: 1px solid rgba(139, 61, 255, 0.2);
+            padding-top: 20px;
+            margin-top: 40px;
+        }
+
+        .btn-back {
+            display: block;
+            width: 160px;
+            margin: 40px auto 0 auto;
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 2px solid var(--accent-purple);
+            color: var(--white);
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn-back:hover {
+            background-color: var(--accent-purple);
+            box-shadow: 0 0 15px var(--accent-glow);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Whitepaper Oficial – Token ARENA</h1>
+    <div class="version-tag">Versión 1.0 - Septiembre 2026</div>
+    
+    <p style="text-align: center; font-weight: bold; color: var(--accent-glow);">Token BEP-20 de Gobernanza y Recompensas del Ecosistema</p>
+
+    <div class="divider"></div>
+
+    <h2>1. Resumen Ejecutivo</h2>
+    <p><strong>ARENA (ARN)</strong> es un token de utilidad BEP-20 desplegado en la BNB Smart Chain, diseñado con un enfoque absoluto en la comunidad y un modelo de emisión justa (<em>Fair Launch</em>). La base estructural del proyecto busca establecer un ecosistema transparente centrado en mecánicas descentralizadas de recompensa y despliegue de utilidades Web3, incluyendo futuros módulos de votación DAO (Organización Autónoma Descentralizada) e incentivos de red por fases.</p>
+    <p>El concepto central de ARENA se enfoca en la gobernanza descentralizada y la expansión de la arquitectura del protocolo, garantizando un entorno equitativo donde la transparencia algorítmica dicta el equilibrio del mercado desde el bloque cero.</p>
+
+    <h2>2. Economía del Token (Tokenomics)</h2>
+    <p>Para preservar una claridad estructural completa y proteger a los participantes del ecosistema, ARENA adopts un modelo estandarizado de distribución por curva de vinculación (<em>Bonding Curve</em>) a través de Four.meme. Este mecanismo neutraliza la dependencia de capital inicial por parte del desarrollador y protege la distribución de liquidez en las etapas tempranas.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Concepto de Asignación</th>
+                <th>Tokens (ARN)</th>
+                <th>Porcentaje</th>
+                <th>Detalles Operativos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Lanzamiento Justo (Curva Four.meme)</strong></td>
+                <td>800.000.000</td>
+                <td>80.00%</td>
+                <td>Disponibles públicamente para la comunidad global a través del sistema automatizado de curva de vinculación y posterior migración programada.</td>
+            </tr>
+            <tr>
+                <td><strong>Reserva Estratégica del Creador</strong></td>
+                <td>200.000.000</td>
+                <td>20.00%</td>
+                <td>Asignación fija inicial adquirida de forma segura en el bloque cero mediante la plataforma de lanzamiento, dedicada estrictamente a marketing de ecosistema y expansión del protocolo.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="font-weight: bold; text-align: center; color: var(--white);">Total Supply Fijo: 1.000.000.000 ARN</p>
+    <p><strong>Nota de Transparencia:</strong> La totalidad del suministro está topada y es inalterable. Al completarse las metas de capitalización preprogramadas dentro del protocolo de Four.meme, todo el pozo de liquidez acumulado se transfiere de forma automática y permanente a PancakeSwap para establecer el mercado abierto.</p>
+
+    <h2>3. Roadmap del Proyecto</h2>
+    
+    <h3>Etapa 1: Arquitectura y Configuración (Completada)</h3>
+    <ul>
+        <li>Finalización del marco matemático para el modelo de suministro fijo de 1.000.000.000 de tokens ARN en BNB Chain.</li>
+        <li>Integración de la contabilidad de la reserva estratégica del 20% del desarrollador y aislamiento de billeteras operativas.</li>
+        <li>Publicación de la infraestructura web técnica base y activos de marca descentralizada en GitHub.</li>
+    </ul>
+
+    <h3>Etapa 2: Lanzamiento y Capitalización (En curso)</h3>
+    <ul>
+        <li>Despliegue del lanzamiento justo utilizando las curvas de vinculación nativas de la plataforma Four.meme.</li>
+        <li>Ejecución de la transacción génesis para asegurar el control del pozo de reserva estratégica de 200M ARN al precio base más bajo.</li>
+        <li>Transición automática de mercado e inyección de liquidez bloqueada programáticamente en PancakeSwap V3.</li>
+    </ul>
+
+    <h3>Etapa 3: Expansión de Ecosistema</h3>
+    <ul>
+        <li>Registro de ticker, verificación de datos y sincronización de visibilidad en rastreadores multi-chain descentralizados.</li>
+        <li>Implementación de campañas promocionales orgánicas e internacionales enfocadas a través de redes digitales sociales.</li>
+        <li>Despliegue gradual de la arquitectura del portal de gobernanza DAO para la participación comunitaria en la red.</li>
+    </ul>
+
+    <h2>4. Equipo Fundador</h2>
+    <div class="team-box">
+        <div class="team-title">Marcelo Tonini (Argentina)</div>
+        <div class="team-role">Fundador y Desarrollador Principal</div>
+        <p>Filosofía Operativa: Transparencia estructural absoluta, progresión continua de la descentralización y un enfoque firme en hitos orgánicos y sostenibles impulsados por la comunidad.</p>
+    </div>
+
+    <h2>5. Aviso Legal</h2>
+    <div class="disclaimer-box">
+        <p>ARENA (ARN) es un token de utilidad descentralizado construido de forma nativa en la red BNB Smart Chain. No constituye, representa ni refleja un título de valor financiero, acción comercial, opción de activos ni contrato de inversión tradicional. El marco de desarrollo no ha sido registrado bajo ninguna comisión regulatoria financiera estatal o internacional.</p>
+        <p>Para maximizar los parámetros de seguridad y ofrecer un entorno operativo equitativo, el proceso de despliegue utiliza el protocolo de curva de vinculación (*bonding curve*) sin permisos de Four.meme, garantizando así la transparencia en cuanto a los límites de emisión y la generación de liquidez inicial.</p>
+        <p>El nombre ARENA y su símbolo asociado (ARN) representan un proyecto de token criptográfico independiente. Todos los detalles operativos, las ampliaciones de código y los objetivos estructurales se ejecutan bajo las reglas de una red descentralizada.</p>
+    </div>
+
+    <a href="index.html" class="btn-back">Return Home</a>
+</div>
+
+</body>
+</html>

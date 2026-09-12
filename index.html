@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARENA (ARN) - Ecosistema Oficial</title>
+    <style>
+        :root {
+            --bg-color: #0b0518; /* Morado muy oscuro de fondo */
+            --card-bg: #160b2d; /* Violeta intermedio para los bloques */
+            --accent-purple: #8b3dff; /* Violeta neón principal */
+            --accent-glow: #bc77ff; /* Violeta brillante para efectos de luz */
+            --text-silver: #e2e8f0; /* Plateado claro para lectura cómoda */
+            --text-muted: #a0aec0; /* Gris plata suave para textos secundarios */
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-silver);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, var(--card-bg) 0%, #080312 100%);
+            border: 2px solid var(--accent-purple);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 0 25px rgba(139, 61, 255, 0.2);
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--accent-purple);
+            margin-bottom: 25px;
+        }
+
+        .logo-placeholder {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px var(--accent-purple);
+        }
+
+        h1 {
+            color: var(--white);
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .tagline {
+            color: var(--accent-glow);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            margin-top: 5px;
+            letter-spacing: 1px;
+        }
+
+        .contract-box {
+            background-color: rgba(0, 0, 0, 0.4);
+            border: 1px dashed var(--accent-glow);
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+            margin: 20px 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.95rem;
+        }
+
+        .btn-main {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 14px 24px;
+            background-color: var(--accent-purple);
+            color: var(--white);
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 0 15px rgba(139, 61, 255, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .btn-main:hover {
+            background-color: #9d56ff;
+            box-shadow: 0 0 25px var(--accent-glow);
+            transform: translateY(-2px);
+        }
+
+        h2 {
+            color: var(--white);
+            font-size: 1.4rem;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-glow);
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-silver);
+            text-align: justify;
+        }
+
+        .grid-docs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .btn-doc {
+            display: block;
+            padding: 10px;
+            background-color: rgba(139, 61, 255, 0.08);
+            border: 1px solid var(--accent-purple);
+            color: var(--white);
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .btn-doc:hover {
+            background-color: var(--accent-purple);
+            box-shadow: 0 0 10px rgba(139, 61, 255, 0.3);
+        }
+
+        ol {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(139, 61, 255, 0.2);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        footer p {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="logo-placeholder">🔮</div>
+        <h1>ARENA</h1>
+        <div class="tagline">Token oficial ARN en BNB Smart Chain</div>
+    </header>
+
+    <div class="contract-box">
+        <strong>Dirección del contrato:</strong> <span>0x... (Próximamente)</span>
+    </div>
+
+    <a href="https://four.meme" target="_blank" class="btn-main">Comprar en Four.meme</a>
+
+    <h2>¿Qué es ARENA (ARN)?</h2>
+    <p>ARENA (ARN) es un token de utilidad en BNB Chain, diseñado bajo un modelo de emisión justa (<em>Fair Launch</em>) para garantizar total transparencia, equidad y participación comunitaria desde el bloque génesis. Rompe los esquemas tradicionales para ofrecer un ecosistema seguro y eficiente.</p>
+
+    <h2>Propósito y Utilidad</h2>
+    <p>Diseñado como el motor de gobernanza e incentivos del ecosistema, ARN permite a la comunidad participar activamente en decisiones clave a través de votaciones DAO, acceder a futuras herramientas de Web3 y fomentar un crecimiento descentralizado sustentable a largo plazo.</p>
+
+    <h2>Documentación y Roadmap</h2>
+    <p>Consulta las bases técnicas y la planificación estratégica del proyecto en nuestros documentos oficiales:</p>
+    <div class="grid-docs">
+        <a href="whitepaper-es-arena.html" class="btn-doc">Whitepaper en Español</a>
+        <a href="whitepaper-en-arena.html" class="btn-doc">Whitepaper in English</a>
+        <a href="roadmap-arena.html" class="btn-doc">Ver Roadmap</a>
+    </div>
+
+    <h2>Cómo comprar ARENA (ARN)</h2>
+    <ol>
+        <li>Instalá MetaMask en tu celular o notebook.</li>
+        <li>Asegurate de tener saldo en BNB para realizar la compra y cubrir comisiones de gas.</li>
+        <li>Ingresá a la plataforma oficial de Four.meme.</li>
+        <li>Conectá tu billetera MetaMask y buscá el ticker <strong>ARN</strong>.</li>
+        <li>Seleccioná el monto en BNB, activá el limitador si corresponde, ¡confirmá la transacción y listo!</li>
+        <li><em>Nota: Al completarse la curva de vinculación, la liquidez se migrará automáticamente a PancakeSwap.</em></li>
+    </ol>
+
+    <footer>
+        <p><strong>Aviso legal:</strong> Este proyecto es un token comunitario independiente centrado en la gobernanza y utilidad dentro del ecosistema Web3 bajo las reglas de la red descentralizada.</p>
+        <p><strong>Disclaimer:</strong> This project is an independent community token focused on governance and utility within the Web3 ecosystem under decentralized network rules.</p>
+    </footer>
+</div>
+
+</body>
+</html>

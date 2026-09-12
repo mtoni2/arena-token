@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARENA (ARN) - Official Whitepaper v1.0</title>
+    <style>
+        :root {
+            --bg-color: #0b0518;
+            --card-bg: #160b2d;
+            --accent-purple: #8b3dff;
+            --accent-glow: #bc77ff;
+            --text-silver: #e2e8f0;
+            --text-muted: #a0aec0;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-silver);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, var(--card-bg) 0%, #080312 100%);
+            border: 2px solid var(--accent-purple);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 0 25px rgba(139, 61, 255, 0.2);
+        }
+
+        h1 {
+            color: var(--white);
+            text-align: center;
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 12px var(--accent-purple);
+        }
+
+        .version-tag {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--accent-purple), transparent);
+            margin: 25px 0;
+        }
+
+        h2 {
+            color: var(--white);
+            font-size: 1.6rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent-glow);
+            padding-left: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-silver);
+            text-align: justify;
+        }
+
+        strong {
+            color: var(--white);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background-color: rgba(139, 61, 255, 0.03);
+            border: 1px solid rgba(139, 61, 255, 0.2);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(139, 61, 255, 0.2);
+        }
+
+        th {
+            background-color: rgba(139, 61, 255, 0.1);
+            color: var(--white);
+        }
+
+        ul {
+            list-style-type: none;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        li::before {
+            content: "⚡";
+            position: absolute;
+            left: 0;
+            color: var(--accent-glow);
+        }
+
+        .team-box {
+            background-color: rgba(139, 61, 255, 0.05);
+            border: 1px solid rgba(139, 61, 255, 0.2);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .team-title {
+            font-size: 1.2rem;
+            color: var(--white);
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .team-role {
+            font-size: 0.9rem;
+            color: var(--accent-glow);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .disclaimer-box {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-style: italic;
+            border-top: 1px solid rgba(139, 61, 255, 0.2);
+            padding-top: 20px;
+            margin-top: 40px;
+        }
+
+        .btn-back {
+            display: block;
+            width: 160px;
+            margin: 40px auto 0 auto;
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 2px solid var(--accent-purple);
+            color: var(--white);
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn-back:hover {
+            background-color: var(--accent-purple);
+            box-shadow: 0 0 15px var(--accent-glow);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Official Whitepaper – ARENA Token</h1>
+    <div class="version-tag">Version 1.0 - September 2026</div>
+    
+    <p style="text-align: center; font-weight: bold; color: var(--accent-glow);">BEP-20 Token for Governance and Ecosystem Rewards</p>
+
+    <div class="divider"></div>
+
+    <h2>1. Executive Summary</h2>
+    <p><strong>ARENA (ARN)</strong> is a utility BEP-20 token deployed on the BNB Smart Chain, engineered with an absolute community-focused approach and a 100% Fair Launch framework. The structural foundation of the project aims to establish a transparent ecosystem centered around decentralized reward mechanics and Web3 utility deployment, including upcoming decentralized autonomous organization (DAO) voting modules and network incentive milestones.</p>
+    <p>The core concept of ARENA centers on decentralized governance and platform architecture expansion, ensuring an equitable playing field where algorithmic transparency dictates market equilibrium from genesis.</p>
+
+    <h2>2. Tokenomics</h2>
+    <p>To preserve complete structural clarity and protect ecosystem participants, ARENA adopts a standardized bonding curve distribution model via Four.meme. This mechanism neutralizes upfront developer capital dependencies and safeguards early-stage liquidity distribution.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Allocation Concept</th>
+                <th>Tokens (ARN)</th>
+                <th>Percentage</th>
+                <th>Operational Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Fair Launch (Four.meme Curve)</strong></td>
+                <td>800,000,000</td>
+                <td>80.00%</td>
+                <td>Publicly accessible to the global community through the automated bonding curve system and subsequent automated migration.</td>
+            </tr>
+            <tr>
+                <td><strong>Creator Strategic Reserve</strong></td>
+                <td>200,000,000</td>
+                <td>20.00%</td>
+                <td>Initial fixed allocation acquired securely at block zero via the launchpad framework, strictly locked for ecosystem marketing and platform expansion.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="font-weight: bold; text-align: center; color: var(--white);">Fixed Total Supply: 1,000,000,000 ARN</p>
+    <p><strong>Transparency Standard:</strong> The aggregate supply is hard-capped and unalterable. Upon fulfilling the pre-programmed capital milestones within the Four.meme protocol, the entire accumulated liquidity pool is automatically and permanently transferred to PancakeSwap to establish an open market environment.</p>
+
+    <h2>3. Project Roadmap</h2>
+    
+    <h3>Stage 1: Architecture & Setup (Completed)</h3>
+    <ul>
+        <li>Mathematical framework finalization for the 1,000,000,000 ARN capped token supply model on BNB Chain.</li>
+        <li>Integration of the 20% developer strategic reserve accounting and deployment wallet isolation.</li>
+        <li>Release of core technical web infrastructure and decentralized branding assets on GitHub.</li>
+    </ul>
+
+    <h3>Stage 2: Launch & Capitalization (In Progress)</h3>
+    <ul>
+        <li>Fair launch smart contract deployment using the native launchpad curves on Four.meme.</li>
+        <li>Execution of the genesis transaction to claim control over the 200M ARN strategic reserve pool at the lowest price tier.</li>
+        <li>Automated market transition and programmatic liquidity locking on PancakeSwap V3.</li>
+    </ul>
+
+    <h3>Stage 3: Ecosystem Expansion</h3>
+    <ul>
+        <li>Ticker registration, data verification, and visibility sync across decentralized multi-chain trackers.</li>
+        <li>Implementation of extensive organic and international promotional campaigns across social digital networks.</li>
+        <li>Gradual architecture rollout of the DAO governance portal for community network participation.</li>
+    </ul>
+
+    <h2>4. Founding Team</h2>
+    <div class="team-box">
+        <div class="team-title">Marcelo Tonini (Argentina)</div>
+        <div class="team-role">Founder & Core Developer</div>
+        <p>Operational Philosophy: Absolute structural transparency, continuous decentralization progression, and a relentless focus on organic, sustainable community-driven milestones.</p>
+    </div>
+
+    <h2>5. Legal Disclaimer</h2>
+    <div class="disclaimer-box">
+        <p>ARENA (ARN) is a decentralized utility token built natively on the BNB Smart Chain network. It does not constitute, represent, or mirror a financial security, commercial stock, asset option, or traditional investment contract. The development framework has not been registered under any state or international financial regulatory commission.</p>
+        <p>To maximize security parameters and deliver a fair operational environment, the deployment pipeline utilizes the permissionless bonding curve protocol of Four.meme, guaranteeing transparency regarding emission limits and seed liquidity generation.</p>
+        <p>The name ARENA and its associated ticker (ARN) represent an independent cryptographic token project. All operational details, code expansions, and structural targets are executed under decentralized network rules.</p>
+    </div>
+
+    <a href="index.html" class="btn-back">Return Home</a>
+</div>
+
+</body>
+</html>

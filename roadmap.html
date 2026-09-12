@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARENA (ARN) - Roadmap v1.0</title>
+    <style>
+        :root {
+            --bg-color: #0b0518; /* Morado muy oscuro de fondo */
+            --card-bg: #160b2d; /* Violeta intermedio para los bloques */
+            --accent-purple: #8b3dff; /* Violeta neón principal */
+            --accent-glow: #bc77ff; /* Violeta brillante para efectos de luz */
+            --text-silver: #e2e8f0; /* Plateado claro para lectura cómoda */
+            --text-muted: #a0aec0; /* Gris plata suave para textos secundarios */
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-silver);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, var(--card-bg) 0%, #080312 100%);
+            border: 2px solid var(--accent-purple);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 0 25px rgba(139, 61, 255, 0.2);
+        }
+
+        h1 {
+            color: var(--white);
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 12px var(--accent-purple);
+            border-bottom: 2px solid var(--accent-purple);
+            padding-bottom: 15px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: var(--accent-glow);
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: var(--white);
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--accent-glow);
+            padding-left: 10px;
+        }
+
+        .section-lang {
+            margin-bottom: 40px;
+        }
+
+        .stage-box {
+            background-color: rgba(139, 61, 255, 0.05);
+            border: 1px solid rgba(139, 61, 255, 0.2);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .stage-title {
+            font-size: 1.2rem;
+            color: var(--white);
+            margin-bottom: 15px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-left: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .badge-completed { background-color: #2e7d32; color: #fff; }
+        .badge-progress { background-color: #f57c00; color: #fff; }
+        .badge-planned { background-color: #555; color: #fff; }
+
+        ul {
+            list-style-type: none;
+            padding-left: 5px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 20px;
+            color: var(--text-silver);
+        }
+
+        li::before {
+            content: "⚡";
+            position: absolute;
+            left: 0;
+            color: var(--accent-glow);
+        }
+
+        .note {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-style: italic;
+            border-top: 1px solid rgba(139, 61, 255, 0.2);
+            padding-top: 15px;
+            margin-top: 25px;
+        }
+
+        .btn-back {
+            display: block;
+            width: 160px;
+            margin: 30px auto 0 auto;
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 2px solid var(--accent-purple);
+            color: var(--white);
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn-back:hover {
+            background-color: var(--accent-purple);
+            box-shadow: 0 0 15px var(--accent-glow);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Roadmap - ARENA v1.0</h1>
+    <div class="subtitle">Actualización Estratégica: Septiembre 2026 – Lanzamiento por Fases</div>
+
+    <!-- ================= ESPAÑOL ================= -->
+    <div class="section-lang">
+        <h2>Español</h2>
+        
+        <div class="stage-box">
+            <div class="stage-title">Etapa 1: Arquitectura y Diseño <span class="badge badge-completed">Completada</span></div>
+            <ul>
+                <li>Definición del modelo de emisión fija de 1.000.000.000 de tokens ARN en BNB Chain.</li>
+                <li>Estructuración de la estrategia de reserva del 20% (200 millones de ARN) para marketing e incentivos futuros del ecosistema.</li>
+                <li>Diseño de la identidad visual premium basada en hilos de conexión violetas neón y tipografía plateada.</li>
+                <li>Preparación y aislamiento de billeteras MetaMask seguras para resguardar las operaciones del protocolo.</li>
+            </ul>
+        </div>
+
+        <div class="stage-box">
+            <div class="stage-title">Etapa 2: Combate en la Curva de Vinculación <span class="badge badge-progress">En curso</span></div>
+            <ul>
+                <li>Despliegue de lanzamiento justo (Fair Launch) del token ARN mediante la curva de vinculación automatizada en Four.meme.</li>
+                <li>Activación de los candados de seguridad integrados: Límite de Compra estricto al 3% por wallet y módulo Anti-Sniping activado en el bloque cero.</li>
+                <li>Ejecución de la inyección de capital inicial estructurada para absorber la reserva del 20% en el punto más eficiente de la curva.</li>
+                <li>Graduación automatizada de la incubadora e inyección de la liquidez comunitaria consolidada en PancakeSwap V3.</li>
+            </ul>
+        </div>
+
+        <div class="stage-box">
+            <div class="stage-title">Etapa 3: Dominio de la Liquidez Abierta <span class="badge badge-planned">Planificada</span></div>
+            <ul>
+                <li>Gestión estricta y congelamiento de las reservas del creador durante los primeros 3 meses de consolidación del mercado.</li>
+                <li>Indexación y verificación del ticker ARN en los principales rastreadores descentralizados y herramientas de análisis blockchain.</li>
+                <li>Implementación de campañas publicitarias dinámicas dirigidas a comunidades e inversores internacionales de la red de Binance.</li>
+                <li>Desarrollo de las fases complementarias de utilidad para el ecosistema según las metas de capitalización alcanzadas.</li>
+            </ul>
+        </div>
+
+        <p class="note">* Para optimizar el uso de los fondos y anular riesgos financieros innecesarios, ARENA adopta el modelo descentralizado de Four.meme, garantizando un lanzamiento protegido, transparente y equitativo para todos los participantes antes de expandirse en el mercado abierto.</p>
+    </div>
+
+    <!-- ================= ENGLISH ================= -->
+    <div class="section-lang">
+        <h2>English</h2>
+        
+        <div class="stage-box">
+            <div class="stage-title">Stage 1: Architecture & Design <span class="badge badge-completed">Completed</span></div>
+            <ul>
+                <li>Definition of the fixed-supply model of 1,000,000,000 ARN tokens deployed on the BNB Chain.</li>
+                <li>Structuring of the 20% reserve strategy (200 million ARN) dedicated to ecosystem marketing and future incentives.</li>
+                <li>Premium visual identity design featuring neon violet network nodes and bold silver typography.</li>
+                <li>Preparation and isolation of secure MetaMask environments to anchor project core deployment.</li>
+            </ul>
+        </div>
+
+        <div class="stage-box">
+            <div class="stage-title">Stage 2: Bonding Curve Deployment <span class="badge badge-progress">In Progress</span></div>
+            <ul>
+                <li>Fair Launch distribution setup of the ARN token through the automated bonding curve mechanism on Four.meme.</li>
+                <li>Activation of built-in security rules: strict 3% purchase limit per wallet and Anti-Sniping module enabled at block zero.</li>
+                <li>Execution of the structured initial developer buy to anchor the 20% strategic reserve at the genesis price floor.</li>
+                <li>Automatic curve graduation and deployment of the consolidated community liquidity pool on PancakeSwap V3.</li>
+            </ul>
+        </div>
+
+        <div class="stage-box">
+            <div class="stage-title">Stage 3: Open Market Expansion <span class="badge badge-planned">Planned</span></div>
+            <ul>
+                <li>Strict lock and strategic management of developer reserves during the vital 3-month market consolidation phase.</li>
+                <li>Indexing and verification of the ARN ticker across decentralized tracking nodes and blockchain data analytics tools.</li>
+                <li>Rollout of target-driven marketing campaigns focused on global decentralized finance (DeFi) investor networks.</li>
+                <li>Engineering of future utility framework expansions aligned with market capitalization milestones achieved.</li>
+            </ul>
+        </div>
