@@ -40,35 +40,35 @@ This project and the ARN token are independent community tools focused on decent
 
 # ?? ARENA (ARN) - Ecosistema Oficial del Token
 
-Ecosistema oficial y suite web para el token **ARENA (ARN)** desplegado en la red BNB Smart Chain, enfocado en gobernanza descentralizada, utilidades comunitarias y recompensas de liquidez de pr車xima generaci車n.
+Ecosistema oficial y suite web para el token **ARENA (ARN)** desplegado en la red BNB Smart Chain, enfocado en gobernanza descentralizada, utilidades comunitarias y recompensas de liquidez de proxima generacion.
 
 ---
 
 ## ?? Contrato del Token (BNB Smart Chain)
 
 ```text
-0x... (Pr車ximamente - Lanzamiento 2026)
+0x... (Proximamente - Lanzamiento 2026)
 ```
 
-> **Nota:** La direcci車n del contrato real se actualizar芍 en este archivo en el mismo segundo del despliegue en la dApp.
+> **Nota:** La direccion del contrato real se actualizara en este archivo en el mismo segundo del despliegue en la dApp.
 
 ---
 
 ## ?? Sitio Web Oficial e Infraestructura
 
-Visita el b迆nker web oficial de ARENA (ARN) para acceder a la dApp de compra, consultar la documentaci車n t谷cnica y verificar los candados de seguridad en vivo:
+Visita el bunker web oficial de ARENA (ARN) para acceder a la dApp de compra, consultar la documentacion tecnica y verificar los candados de seguridad en vivo:
 
 ?? **[https://github.io](https://github.io)**
 
 ---
 
-## ?? Documentaci車n Oficial y Suite de Archivos
+## ?? Documentacion Oficial y Suite de Archivos
 
-La transparencia total es el pilar de nuestro protocolo. Todos los documentos t谷cnicos y hojas de ruta son de acceso p迆blico y est芍n integrados en este repositorio:
+La transparencia total es el pilar de nuestro protocolo. Todos los documentos tecnicos y hojas de ruta son de acceso publico y estan integrados en este repositorio:
 
-* ?? **[Whitepaper en Espa?ol](whitepaper-es-arena.html)** - Bases t谷cnicas, filosof赤a y econom赤a del token.
-* ?? **[Whitepaper in English](whitepaper-en-arena.html)** - Documentaci車n t谷cnica oficial para la comunidad global.
-* ??? **[Roadmap ARN v1.0](roadmap-arena.html)** - Hoja de ruta estrat谷gica dividida en 3 etapas de consolidaci車n.
+* ?? **[Whitepaper en Espanol](whitepaper-es-arena.html)** - Bases tecnicas, filosofia y economia del token.
+* ?? **[Whitepaper in English](whitepaper-en-arena.html)** - Documentacion tecnica oficial para la comunidad global.
+* ??? **[Roadmap ARN v1.0](roadmap-arena.html)** - Hoja de ruta estrategica dividida en 3 etapas de consolidacion.
 
 ---
 
