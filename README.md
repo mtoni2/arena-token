@@ -18,7 +18,7 @@ Official ecosystem and web suite for the **ARENA (ARN)** token deployed on the B
 
 Visit the official web bunker of ARENA (ARN) to access the purchase dApp, consult technical documentation, and verify security locks in real time:
 
-👉 **[https://github.io](https://github.io)**
+👉 **[https://mtoni2.github.io/arena-token/index.html](https://mtoni2.github.io/arena-token/index.html)**
 
 ---
 
@@ -58,7 +58,7 @@ Ecosistema oficial y suite web para el token **ARENA (ARN)** desplegado en la re
 
 Visita el búnker web oficial de ARENA (ARN) para acceder a la dApp de compra, consultar la documentación técnica y verificar los candados de seguridad en vivo:
 
-👉 **[https://github.io](https://github.io)**
+👉 **[https://mtoni2.github.io/arena-token/index.html](https://mtoni2.github.io/arena-token/index.html)**
 
 ---
 
