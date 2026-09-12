@@ -108,6 +108,12 @@
             transform: translateY(-2px);
         }
 
+        .content-block {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
         h2 {
             color: var(--white);
             font-size: 1.6rem;
@@ -115,12 +121,14 @@
             margin-bottom: 15px;
             border-left: 4px solid var(--accent-glow);
             padding-left: 12px;
+            text-align: left;
         }
 
         p {
             margin-bottom: 15px;
             color: var(--text-silver);
             text-align: justify;
+            font-size: 1rem;
         }
 
         .grid-docs {
@@ -151,10 +159,13 @@
         ol {
             padding-left: 20px;
             margin-bottom: 25px;
+            text-align: left;
         }
 
         li {
             margin-bottom: 10px;
+            font-size: 1rem;
+            color: var(--text-silver);
         }
 
         .section-separator {
@@ -182,7 +193,6 @@
 
 <div class="container">
     <header>
-        <!-- Enlace automático a tu archivo logo.png en la raíz -->
         <img src="logo.png" alt="ARENA Logo" class="logo-img">
         <h1>ARENA</h1>
         <div class="tagline">Official ARN Token on BNB Smart Chain</div>
@@ -195,7 +205,7 @@
     <a href="https://four.meme" target="_blank" class="btn-main">Buy on Four.meme</a>
 
     <!-- ================= ENGLISH SECTION ================= -->
-    <section>
+    <div class="content-block">
         <h2>What is ARENA (ARN)?</h2>
         <p>ARENA (ARN) is a utility token deployed on the BNB Chain, engineered under a 100% Fair Launch framework to ensure absolute transparency, equity, and decentralized community participation from genesis. By neutralizing traditional funding frictions, it establishes a reliable infrastructure for distributed Web3 environments.</p>
 
@@ -219,7 +229,7 @@
             <li>Input the desired BNB amount, verify anti-whale/anti-sniping rules, confirm, and complete the swap!</li>
             <li><em>Note: Upon completing the pre-programmed bonding curve milestones, the aggregate liquidity pool will be automatically migrated to PancakeSwap.</em></li>
         </ol>
-    </section>
+    </div>
 	<footer>
         <p><strong>Disclaimer:</strong> This project is an independent community token focused on governance and utility within the Web3 ecosystem under decentralized network rules.</p>
 
@@ -228,9 +238,9 @@
     <div class="section-separator"></div>
 
     <!-- ================= SECCIÓN EN ESPAÑOL ================= -->
-    <section>
+    <div class="content-block">
         <h2>¿Qué es ARENA (ARN)?</h2>
-        <p>¿Qué es ARENA (ARN)? ARENA (ARN) es un token de utilidad en BNB Chain, diseñado bajo un modelo de emisión justa (<em>Fair Launch</em>) para garantizar total transparencia, equidad y participación comunitaria desde el bloque génesis. Rompe los esquemas tradicionales para ofrecer un ecosistema seguro y eficiente.</p>
+        <p>ARENA (ARN) es un token de utilidad en BNB Chain, diseñado bajo un modelo de emisión justa (<em>Fair Launch</em>) para garantizar total transparencia, equidad y participación comunitaria desde el bloque génesis. Rompe los esquemas tradicionales para ofrecer un ecosistema seguro y eficiente.</p>
 
         <h2>Propósito y Utilidad</h2>
         <p>Diseñado como el motor de gobernanza e incentivos del ecosistema, ARN permite a la comunidad participar activamente en decisiones clave a través de votaciones DAO, acceder a futuras herramientas de Web3 y fomentar un crecimiento descentralizado sustentable a largo plazo.</p>
@@ -252,7 +262,7 @@
             <li>Seleccioná el monto en BNB, activá el limitador si corresponde, ¡confirmá la transacción y listo!</li>
             <li><em>Nota: Al completarse la curva de vinculación, la liquidez se migrará automáticamente a PancakeSwap.</em></li>
         </ol>
-    </section>
+    </div>
 
     <footer>
         <p><strong>Aviso legal:</strong> Este proyecto es un token comunitario independiente centrado en la gobernanza y la utilidad dentro del ecosistema Web3, bajo las reglas de una red descentralizada.</p>
